@@ -2,7 +2,7 @@ const crypto = require('crypto');
 const fs = require("fs")
 const rl = require("readline-sync")
 const Color = require("sync-color")
-
+Color.init()
 var algo = "aes-256-gcm"
 var key = "1".repeat(32) // Key, feel free to change this, length must be 32
 
